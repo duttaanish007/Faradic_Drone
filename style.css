@@ -22,12 +22,7 @@ header {
   text-align: justify;
 }
 
-.logo {
-  position: fixed;
-  float: left;
-  margin: 16px 36px;
-  color: #881212;
-}
+
 
 
 .btn{
@@ -48,11 +43,7 @@ header {
 }
 
 @media(max-width: 580px) {
-  .logo {
-    position: fixed;
-    top: 0;
-    margin-top: 16px;
-  }
+ 
   .btn{
     position: fixed;
     top: 0;
