@@ -51,25 +51,10 @@ header {
     margin-left: 230px;
   }
   
-  /* nav ul {
-    max-height: 0px;
-    background: #bba5a5;
-  } */
-  
-  /* nav.black ul {
-    background: linear-gradient(to right, #997575, #231518, #020202);
-  } */
-  
   .showing {
     max-height: 20em;
   }
   
-  /* nav ul li {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 24px 0;
-    text-align: center;
-  } */
 
   .menu-icon {
     display: block;
