@@ -37,37 +37,10 @@ header {
 
 nav {
   position: fixed;
-  width: 100%;
-}
-.btn{
-  
+ 
 }
 
-nav ul {
-  list-style: none;
-  background: rgba(0, 0, 0, 0);
-  overflow: hidden;
-  color: #fff;
-  padding: 0;
-  text-align: center;
-  margin: 0;
-  transition: 1s;
-}
 
-nav.black ul{
-    background: linear-gradient(to right, rgb(142 142 142), rgb(255, 169, 169));
-}
-
-nav ul li{
-  display: inline-block;
-  padding: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px;
-}
 
 .menu-icon {
   width: 100%;
@@ -93,25 +66,25 @@ nav ul li a {
     margin-left: 230px;
   }
   
-  nav ul {
+  /* nav ul {
     max-height: 0px;
     background: #bba5a5;
-  }
+  } */
   
-  nav.black ul {
+  /* nav.black ul {
     background: linear-gradient(to right, #997575, #231518, #020202);
-  }
+  } */
   
   .showing {
     max-height: 20em;
   }
   
-  nav ul li {
+  /* nav ul li {
     box-sizing: border-box;
     width: 100%;
     padding: 24px 0;
     text-align: center;
-  }
+  } */
 
   .menu-icon {
     display: block;
