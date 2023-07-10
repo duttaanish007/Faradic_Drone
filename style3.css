@@ -14,57 +14,9 @@ input {
 }
 
 /* NAV BAR */
-header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-.content {
-width: 90%;
-margin: 4em auto;
-font-size: 20px;
-line-height: 30px;
-text-align: justify;
-}
 
+/* navbar end */
 
-
-
-.btn{
-position: fixed;
-float: left;
-margin: -60px 1345px;
-}
-
-.menu-icon {
-width: 100%;
-background: #b26f6f;
-text-align: right;
-box-sizing: border-box;
-padding: 15px 24px;
-cursor: pointer;
-color: #fff;
-display: none;
-}
-
-@media(max-width: 580px) {
-
-.btn{
-  position: fixed;
-  top: 0;
-  margin-top: 16px;
-  margin-left: 230px;
-}
-
-.showing {
-  max-height: 20em;
-}
-
-
-.menu-icon {
-  display: block;
-}
-}
 main {
   width: 100%;
   min-height: 100vh;
