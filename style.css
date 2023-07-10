@@ -27,20 +27,14 @@ header {
   float: left;
   margin: 16px 36px;
   color: #881212;
-  
 }
+
+
 .btn{
   position: fixed;
   float: left;
   margin: -60px 1345px;
 }
-
-nav {
-  position: fixed;
- 
-}
-
-
 
 .menu-icon {
   width: 100%;
