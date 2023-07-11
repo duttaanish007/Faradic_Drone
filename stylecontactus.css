@@ -90,7 +90,7 @@ header {
       flex-direction: column;
       flex-shrink: 1;
       display: flex;
-      max-width: 1127px;
+      max-width: 100%;
       position: relative;
       flex-basis: 0px;
       justify-content: center;
