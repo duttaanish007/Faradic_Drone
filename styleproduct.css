@@ -55,7 +55,7 @@ body {
       width: 100%;
       .banner-padding {
         padding-top: 300px;
-        margin-top: 70px;
+        /* margin-top: 70px; */
         @media only screen and (max-width: 768px) {
           padding-top: 25.296%;
         }
