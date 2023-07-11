@@ -1,7 +1,10 @@
-$('.buy').click(function(){
-    $('.bottom').addClass("clicked");
+$('.add-to-cart').click(function(){
+    $('.cart').style.display = "none";
+    $('.added_to_cart').style.display = "block";
+
   });
   
   $('.remove').click(function(){
-    $('.bottom').removeClass("clicked");
+    $('.cart').style.display = "block";
+    $('.added_to_cart').style.display = "none";
   });

@@ -1,447 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>products</title>
-    <link rel="stylesheet" href="styleproduct.css">
-    <script src="scriptproduct.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>products</title>
+  <link rel="stylesheet" href="styleproduct.css">
+  <link rel="stylesheet" href="style.css">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+
+
+  <!-- bootstrap only for products -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+
 </head>
+
 <body>
 
-    <div class="container" style="margin: 1px solid black;">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="wrapper">
-                    <div class="container">
-                      <div class="top"></div>
-                      <div class="bottom">
-                        <div class="left">
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>£250</p>
-                          </div>
-                          <div class="buy"><i class="material-icons">add_shopping_cart</i></div>
-                        </div>
-                        <div class="right">
-                          <div class="done"><i class="material-icons">done</i></div>
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                          </div>
-                          <div class="remove"><i class="material-icons">clear</i></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inside">
-                      <div class="icon"><i class="material-icons">info_outline</i></div>
-                      <div class="contents">
-                        <table>
-                          <tr>
-                            <th>Width</th>
-                            <th>Height</th>
-                          </tr>
-                          <tr>
-                            <td>3000mm</td>
-                            <td>4000mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
+  <div class="wrapper">
+    <header>
+        <nav class="mb-4 navbar navbar-expand-lg navbar-dark bg-unique">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt="" width="100px" height="23px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-3" aria-controls="navbarSupportedContent-3" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-3" >
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lifestyle <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contactus.html" class="nav-link" >Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="products.html" class="nav-link" href="#">Products</a>                          
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto nav-flex-icons" style="float: right;">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light"><i class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link waves-effect waves-light" href="loginandsignup.html"><i class="fa fa-user"></i></a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-4">
-                <div class="wrapper">
-                    <div class="container">
-                      <div class="top"></div>
-                      <div class="bottom">
-                        <div class="left">
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>£250</p>
-                          </div>
-                          <div class="buy"><i class="material-icons">add_shopping_cart</i></div>
-                        </div>
-                        <div class="right">
-                          <div class="done"><i class="material-icons">done</i></div>
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                          </div>
-                          <div class="remove"><i class="material-icons">clear</i></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inside">
-                      <div class="icon"><i class="material-icons">info_outline</i></div>
-                      <div class="contents">
-                        <table>
-                          <tr>
-                            <th>Width</th>
-                            <th>Height</th>
-                          </tr>
-                          <tr>
-                            <td>3000mm</td>
-                            <td>4000mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
+        </nav>
+    </header>
+</div>
+
+  <div class="container" >
+    <div class="row" >
+      <div class="col-md-4">
+        <div class="page-inner">
+          <div class="row">
+            <div class="el-wrapper">
+              <div class="box-up">
+                <img class="img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabdqIF-3ajtw8mnaa23hxwg_p02aFNb9etMBhtoLw&s"
+                  alt="" height="250px">
+                <div class="img-info">
+                  <div class="info-inner">
+                    <span class="p-name">Sample Drone</span>
+                    <span class="p-company">FARADIC</span>
                   </div>
+                  <div class="a-size">Available colors : <span class="size">X, X, X, X</span></div>
+                </div>
+              </div>
+    
+              <div class="box-down">
+                <div class="h-bg">
+                  <div class="h-bg-inner"></div>
+                </div>
+    
+                <a class="cart" href="#">
+                  <span class="price">$120</span>
+                  <span class="add-to-cart">
+                    <span class="txt">Add to cart</span>
+                  </span>
+                </a>
+              </div>
             </div>
-            <div class="col-md-4">
-                <div class="wrapper">
-                    <div class="container">
-                      <div class="top"></div>
-                      <div class="bottom">
-                        <div class="left">
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>£250</p>
-                          </div>
-                          <div class="buy"><i class="material-icons">add_shopping_cart</i></div>
-                        </div>
-                        <div class="right">
-                          <div class="done"><i class="material-icons">done</i></div>
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                          </div>
-                          <div class="remove"><i class="material-icons">clear</i></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inside">
-                      <div class="icon"><i class="material-icons">info_outline</i></div>
-                      <div class="contents">
-                        <table>
-                          <tr>
-                            <th>Width</th>
-                            <th>Height</th>
-                          </tr>
-                          <tr>
-                            <td>3000mm</td>
-                            <td>4000mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="wrapper">
-                    <div class="container">
-                      <div class="top"></div>
-                      <div class="bottom">
-                        <div class="left">
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>£250</p>
-                          </div>
-                          <div class="buy"><i class="material-icons">add_shopping_cart</i></div>
-                        </div>
-                        <div class="right">
-                          <div class="done"><i class="material-icons">done</i></div>
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                          </div>
-                          <div class="remove"><i class="material-icons">clear</i></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inside">
-                      <div class="icon"><i class="material-icons">info_outline</i></div>
-                      <div class="contents">
-                        <table>
-                          <tr>
-                            <th>Width</th>
-                            <th>Height</th>
-                          </tr>
-                          <tr>
-                            <td>3000mm</td>
-                            <td>4000mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="wrapper">
-                    <div class="container">
-                      <div class="top"></div>
-                      <div class="bottom">
-                        <div class="left">
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>£250</p>
-                          </div>
-                          <div class="buy"><i class="material-icons">add_shopping_cart</i></div>
-                        </div>
-                        <div class="right">
-                          <div class="done"><i class="material-icons">done</i></div>
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                          </div>
-                          <div class="remove"><i class="material-icons">clear</i></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inside">
-                      <div class="icon"><i class="material-icons">info_outline</i></div>
-                      <div class="contents">
-                        <table>
-                          <tr>
-                            <th>Width</th>
-                            <th>Height</th>
-                          </tr>
-                          <tr>
-                            <td>3000mm</td>
-                            <td>4000mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4">
-                <div class="wrapper">
-                    <div class="container">
-                      <div class="top"></div>
-                      <div class="bottom">
-                        <div class="left">
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>£250</p>
-                          </div>
-                          <div class="buy"><i class="material-icons">add_shopping_cart</i></div>
-                        </div>
-                        <div class="right">
-                          <div class="done"><i class="material-icons">done</i></div>
-                          <div class="details">
-                            <h1>Chair</h1>
-                            <p>Added to your cart</p>
-                          </div>
-                          <div class="remove"><i class="material-icons">clear</i></div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="inside">
-                      <div class="icon"><i class="material-icons">info_outline</i></div>
-                      <div class="contents">
-                        <table>
-                          <tr>
-                            <th>Width</th>
-                            <th>Height</th>
-                          </tr>
-                          <tr>
-                            <td>3000mm</td>
-                            <td>4000mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                          <tr>
-                            <th>Something</th>
-                            <th>Something</th>
-                          </tr>
-                          <tr>
-                            <td>200mm</td>
-                            <td>200mm</td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            
+          </div>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="page-inner">
+          <div class="row">
+            <div class="el-wrapper">
+              <div class="box-up">
+                <img class="img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabdqIF-3ajtw8mnaa23hxwg_p02aFNb9etMBhtoLw&s"
+                  alt="" height="250px">
+                <div class="img-info">
+                  <div class="info-inner">
+                    <span class="p-name">Sample Drone</span>
+                    <span class="p-company">FARADIC</span>
+                  </div>
+                  <div class="a-size">Available colors : <span class="size">X, X, X, X</span></div>
+                </div>
+              </div>
+    
+              <div class="box-down">
+                <div class="h-bg">
+                  <div class="h-bg-inner"></div>
+                </div>
+    
+                <a class="cart" href="#">
+                  <span class="price">$120</span>
+                  <span class="add-to-cart">
+                    <span class="txt">Add to cart</span>
+                  </span>
+                </a>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="page-inner">
+          <div class="row">
+            <div class="el-wrapper">
+              <div class="box-up">
+                <img class="img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabdqIF-3ajtw8mnaa23hxwg_p02aFNb9etMBhtoLw&s"
+                  alt="" height="250px">
+                <div class="img-info">
+                  <div class="info-inner">
+                    <span class="p-name">Sample Drone</span>
+                    <span class="p-company">FARADIC</span>
+                  </div>
+                  <div class="a-size">Available colors : <span class="size">X, X, X, X</span></div>
+                </div>
+              </div>
+    
+              <div class="box-down">
+                <div class="h-bg">
+                  <div class="h-bg-inner"></div>
+                </div>
+    
+                <a class="cart" href="#">
+                  <span class="price">$120</span>
+                  <span class="add-to-cart">
+                    <span class="txt">Add to cart</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-         <!-- FOOTER START -->
-  
-<div class="footer">
-    <div class="inner-footer">
-  
-  <!--  for company name and description -->
-      <div class="footer-items">
-        <h1>FARADIC</h1>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="page-inner">
+          <div class="row">
+            <div class="el-wrapper">
+              <div class="box-up">
+                <img class="img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabdqIF-3ajtw8mnaa23hxwg_p02aFNb9etMBhtoLw&s"
+                  alt="" height="250px">
+                <div class="img-info">
+                  <div class="info-inner">
+                    <span class="p-name">Sample Drone</span>
+                    <span class="p-company">FARADIC</span>
+                  </div>
+                  <div class="a-size">Available colors : <span class="size">X, X, X, X</span></div>
+                </div>
+              </div>
+    
+              <div class="box-down">
+                <div class="h-bg">
+                  <div class="h-bg-inner"></div>
+                </div>
+    
+                <a class="cart" href="#">
+                  <span class="price">$120</span>
+                  <span class="add-to-cart">
+                    <span class="txt">Add to cart</span>
+                  </span>
+                </a>   
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  
-  <!--  for quick links  -->
-      <div class="footer-items">
-        <h3>Quick Links</h3>
-        <div class="border1"></div> <!--for the underline -->
-          <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>Search</li></a>
-            <a href="#"><li>Contact</li></a>
-            <a href="#"><li>About</li></a>
-          </ul>
+      <div class="col-md-4">
+        <div class="page-inner">
+          <div class="row">
+            <div class="el-wrapper">
+              <div class="box-up">
+                <img class="img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabdqIF-3ajtw8mnaa23hxwg_p02aFNb9etMBhtoLw&s"
+                  alt="" height="250px">
+                <div class="img-info">
+                  <div class="info-inner">
+                    <span class="p-name">Sample Drone</span>
+                    <span class="p-company">FARADIC</span>
+                  </div>
+                  <div class="a-size">Available colors : <span class="size">X, X, X, X</span></div>
+                </div>
+              </div>
+    
+              <div class="box-down">
+                <div class="h-bg">
+                  <div class="h-bg-inner"></div>
+                </div>
+    
+                <a class="cart" href="#">
+                  <span class="price">$120</span>
+                  <span class="add-to-cart">
+                    <span class="txt">Add to cart</span>
+                  </span>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-  
-  <!--  for some other links -->
-      
-  
-  <!--  for contact us info -->
-      <div class="footer-items">
-        <h3>Contact us</h3>
-        <div class="border1"></div>
-          <ul>
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i>123456789</li>
-            <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
-          </ul> 
-        
-  <!--   for social links -->
-          
+      <div class="col-md-4">
+        <div class="page-inner">
+          <div class="row">
+            <div class="el-wrapper">
+              <div class="box-up">
+                <img class="img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQabdqIF-3ajtw8mnaa23hxwg_p02aFNb9etMBhtoLw&s"
+                  alt="" height="250px">
+                <div class="img-info">
+                  <div class="info-inner">
+                    <span class="p-name">Sample Drone</span>
+                    <span class="p-company">FARADIC</span>
+                  </div>
+                  <div class="a-size">Available colors : <span class="size">X, X, X, X</span></div>
+                </div>
+              </div>
+    
+              <div class="box-down">
+                <div class="h-bg">
+                  <div class="h-bg-inner"></div>
+                </div>
+    
+                <a class="cart" href="#">
+                  <span class="price">$120</span>
+                  <span class="add-to-cart">
+                    <span class="txt">Add to cart</span>
+                  </span>
+                </a>    
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     
-  <!--   Footer Bottom start  -->
+  </div>
+  <!-- FOOTER START -->
+
+  <div class="footer">
+    <div class="inner-footer">
+
+      <!--  for company name and description -->
+      <div class="footer-items">
+        <h1>FARADIC</h1>
+      </div>
+
+      <!--  for quick links  -->
+      <div class="footer-items">
+        <h3>Quick Links</h3>
+        <div class="border1"></div> <!--for the underline -->
+        <ul>
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>Search</li>
+          </a>
+          <a href="#">
+            <li>Contact</li>
+          </a>
+          <a href="#">
+            <li>About</li>
+          </a>
+        </ul>
+      </div>
+
+      <!--  for some other links -->
+
+
+      <!--  for contact us info -->
+      <div class="footer-items">
+        <h3>Contact us</h3>
+        <div class="border1"></div>
+        <ul>
+          <li><i class="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
+          <li><i class="fa fa-phone" aria-hidden="true"></i>123456789</li>
+          <li><i class="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+        </ul>
+
+        <!--   for social links -->
+
+      </div>
+    </div>
+
+    <!--   Footer Bottom start  -->
     <div class="footer-bottom">
       Copyright &copy; Faradic 2023
     </div>
   </div>
-    
+
   <!--   Footer Bottom end -->
-    
-    FOOTER END
+
+  FOOTER END
+  <script src="scriptproduct.js"></script>
 
 </body>
+
 </html>
