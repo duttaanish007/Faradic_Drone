@@ -62,7 +62,7 @@ nav ul {
   transition: 1s;
 }
 nav.black ul {
-  background: linear-gradient(to right, rgb(142 142 142), rgb(27 20 22));
+  background: linear-gradient(to right, rgb(73 63 63), rgb(27 20 22));
 }
 nav ul li {
   display:inline-block;
@@ -75,7 +75,7 @@ nav ul li a {
 }
 .menu-icon {
   width: 100%;
-  background:linear-gradient(to right, rgb(142 142 142), rgb(27 20 22));
+  background: linear-gradient(to right, rgb(73 63 63), rgb(27 20 22));
   text-align: right;
   box-sizing: border-box;
   padding: 15px 24px;
@@ -92,10 +92,10 @@ nav ul li a {
   }
   nav ul {
     max-height:0px;
-    background: linear-gradient(to right, rgb(142 142 142), rgb(27 20 22));
+    background: linear-gradient(to right, rgb(73 63 63), rgb(27 20 22));
   }
   nav.black ul {
-    background: linear-gradient(to right, rgb(142 142 142), rgb(27 20 22));
+    background: linear-gradient(to right, rgb(73 63 63), rgb(27 20 22));
   }
   .showing {
     max-height:20em;
@@ -170,7 +170,7 @@ img {
 }
 ::selection {
   color: #fff;
-  background: linear-gradient(to right, rgb(142 142 142), rgb(27 20 22));
+  background: linear-gradient(to right, rgb(73 63 63), rgb(27 20 22));
 }
 .widget.widget-text-heading .description {
   margin: 0 0 40px;
@@ -646,7 +646,7 @@ hero-content button:hover{
 /* FOOTER */
 .footer {
 	width: 100%;
-	background: linear-gradient(to right, rgb(142 142 142), rgb(27 20 22));
+	background: linear-gradient(to right, rgb(73 63 63), rgb(27 20 22));
 	display: block;
  }
 
@@ -745,7 +745,7 @@ li i {
 
 .footer-bottom {
 	padding: 10px;
-	background: linear-gradient(to right, rgb(142 142 142), rgb(27 20 22));
+  background: linear-gradient(to right, rgb(73 63 63), rgb(27 20 22));
 	color: #fff;
 	font-size: 12px;
 	text-align: center;
@@ -1201,6 +1201,15 @@ body {
       margin: 20% auto;
   }
 }
+
+
+
+
+/* happy_customer */
+
+
+
+
 
 
 
