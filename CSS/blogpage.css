@@ -137,7 +137,7 @@ li{
     list-style: none;
 }
 
-img{
+.fitBg{
     width: 100%;
 }
 
@@ -158,15 +158,6 @@ a{
 /* Header */
 
 
-.logo{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--bg-color);
-}
-
-.logo span{
-    color: var(--second-color);
-}
 
 .login{
     padding: 8px 14px;
