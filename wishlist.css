@@ -28,6 +28,13 @@ button:hover{
 .modal.right .modal-body {
     padding: 15px 15px 80px;
 }
+.button {
+    background-color: #0a4d6e;
+    width: 68px;
+    height: 25px;
+    font-size: 10px;
+    
+}
 
 /*Left*/
 .modal.left.fade .modal-dialog{
